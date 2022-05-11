@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    font-family: 'poppins';
+}
+
+
+/* Navbar */
+
+nav{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    padding: 1rem;
+}
+
+.logo h1{
+    font-size: 1.5em;
+}
+
+.nav ul{
+    display: flex;
+    margin-top: 0.5rem;
+    width: 120%;
+    margin-left: 7.5rem;
+    justify-content: space-between;
+}
+
+.navlist-item{
+    list-style: none;
+}
+
+.navlist-item a{
+    text-decoration: none;
+    color: black;
+}
+
+/* Header Section */
+
+header{
+    background-color: #EC5598;
+}
+
+header p{
+    padding: 1rem;
+    color: #ffff;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+/* Main Container */
+
+.container{
+    border: 1px solid rgb(253, 253, 253);
+    width: 60%;
+    margin: auto;
+    margin-top: 3rem;
+    box-shadow: 1.5px 1.5px 1.5px 1.5px rgba(243, 66, 142, 0.3);
+}
+
+.heading{
+    background-color: #EC5598;
+    color: white;
+    margin-bottom: 3rem;
+}
+
+.heading p{
+    padding: 0.8rem;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+.content{
+    margin-bottom: 3rem;
+}
+
+.content-box{
+    margin-left: 5rem;
+}
+
+.input{
+    width: 90%;
+    padding: 0.8rem;
+    color: #666666;
+}
+
+.label{
+    color: #666666;
+    font-weight: 500;
+    margin-bottom: 0.3rem;
+    margin-top: 1.5rem;
+}
+
+.btn{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+button{
+    background-color: #EC5598;
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 0.5rem 2rem;
+    font-size: 1.5em;
+}
+
+/* Footer */
+
+.footer-container{
+    margin: auto;
+    background-color: aqua;
+}
+
+footer{
+    background-color: #EC5598;
+    margin-top: 5rem;
+}
+
+.contact{
+    display: flex;
+}
