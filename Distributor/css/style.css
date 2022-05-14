@@ -8,19 +8,6 @@ main {
     font-family: 'poppins';
 }
 
-/* Header Section */
-
-header {
-    background-color: #EC5598;
-}
-
-    header p {
-        padding: 1rem;
-        color: #ffff;
-        font-size: 3em;
-        font-weight: bold;
-    }
-
 /* Main Container */
 
 .container-box {
@@ -72,6 +59,18 @@ header {
     margin-top: 2rem;
 }
 
+.btn-r{
+    margin-top: 1rem;
+}
+
+.lbl-r{
+    font-size: 1.2rem;
+}
+
+#female{
+    margin-left: 2rem;
+}
+
 button {
     background-color: #EC5598;
     border: none;
@@ -79,4 +78,11 @@ button {
     font-weight: bold;
     padding: 0.5rem 2rem;
     font-size: 1.5em;
+}
+
+.button{
+    display: flex;
+    justify-content: space-around;
+    width:  70%;
+    margin: auto;
 }

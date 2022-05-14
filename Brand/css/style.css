@@ -8,19 +8,6 @@ main {
     font-family: 'poppins';
 }
 
-/* Header Section */
-
-header {
-    background-color: #EC5598;
-}
-
-    header p {
-        padding: 1rem;
-        color: #ffff;
-        font-size: 3em;
-        font-weight: bold;
-    }
-
 /* Main Container */
 
 .container-box {
@@ -70,6 +57,17 @@ header {
 .btn-b {
     text-align: center;
     margin-top: 2rem;
+}
+
+.btn-r{
+    margin-bottom: 0.3rem;
+    margin-top: 1rem;
+    font-size: 1.2em;
+}
+
+.lbl-r{
+    margin-bottom: 0.3rem;
+    font-size: 1.2em;
 }
 
 button {
