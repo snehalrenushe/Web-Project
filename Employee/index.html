@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Distributor</title>
+    <title>Employee</title>
     <link rel="stylesheet" href="./css/style.css">
     <script src="https://kit.fontawesome.com/66bfe7259d.js" crossorigin="anonymous"></script>
 </head>
@@ -12,17 +12,21 @@
     <main>
         <div class="container-box">
             <div class="heading">
-                <p>DISTRIBUTOR DETAILS</p>
+                <p>EMPLOYEE DETAILS</p>
             </div>
 
             <div class="content">
                 <div class="content-box">
                     <p class="lbl">Name</p>
-                    <input type="text" class="txt" id="distributorname" placeholder="Ex.John">
+                    <input type="text" class="txt" id="employeename" placeholder="Ex.John">
                 </div>
                 <div class="content-box">
-                    <p class="lbl">Address</p>
-                    <input type="text" class="txt" id="distributoraddress" placeholder="Ex.LA">
+                    <p class="lbl">Date</p>
+                    <input type="date" id="date" class="txt">
+                </div>
+                <div class="content-box">
+                    <p class="lbl">Age</p>
+                    <input type="text" class="txt" id="age" placeholder="Ex.23">
                 </div>
                 <div class="content-box">
                     <p class="lbl">Gender</p>
@@ -32,12 +36,8 @@
                     <label for="female" class="lbl-r">Female</label>
                 </div>
                 <div class="content-box">
-                    <p class="lbl">Registration No</p>
-                    <input type="text" class="txt" id="registrationno" placeholder="Ex.8923A">
-                </div>
-                <div class="content-box">
-                    <p class="lbl">Tie Up Date</p>
-                    <input type="date" id="date" class="txt">
+                    <p class="lbl">Joining Date</p>
+                    <input type="date" id="joiningdate" class="txt">
                 </div>
                 <div class="content-box">
                     <p class="lbl">Mobile No</p>
@@ -53,11 +53,15 @@
                 </div>
                 <div class="content-box">
                     <p class="lbl">PAN No</p>
-                    <input type="text" class="txt" id="panno" placeholder="Ex.894834****">
+                    <input type="text" class="txt" id="panno" placeholder="Ex.894782****">
                 </div>
                 <div class="content-box">
                     <p class="lbl">Email ID</p>
                     <input type="text" class="txt" id="emailid" placeholder="Ex.John123@gmail.com">
+                </div>
+                <div class="content-box">
+                    <p class="lbl">Address</p>
+                    <input type="text" class="txt" id="employeeaddress" placeholder="Ex.LA">
                 </div>
 
                 <div class="button">
@@ -71,6 +75,8 @@
                         <button>Refresh</button>
                     </div>
                 </div>
+
+                
             </div>
 
         </div>
